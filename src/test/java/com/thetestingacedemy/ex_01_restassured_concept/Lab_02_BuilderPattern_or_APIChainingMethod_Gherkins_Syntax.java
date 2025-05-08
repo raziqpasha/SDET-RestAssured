@@ -1,9 +1,9 @@
-package com.thetestingacedemy;
+package com.thetestingacedemy.ex_01_restassured_concept;
 
 import io.restassured.RestAssured;
 import java.util.*;
 
-public class Lab_02 {
+public class Lab_02_BuilderPattern_or_APIChainingMethod_Gherkins_Syntax {
     public static void main(String[] args) {
 
         //restAssured
@@ -13,6 +13,8 @@ public class Lab_02 {
         //then() - status code -200 ok , ex: firstname == raziq
 
 
+        //these are consequite(continous without inteription) and important ->these gherkins syntax is
+        // builder pattern and API Chaining method
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the pincode");
         int pincode = sc.nextInt();
