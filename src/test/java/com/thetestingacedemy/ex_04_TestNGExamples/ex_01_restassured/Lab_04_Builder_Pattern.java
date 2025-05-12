@@ -1,4 +1,4 @@
-package com.thetestingacedemy.ex_01_restassured_concept;
+package com.thetestingacedemy.ex_04_TestNGExamples.ex_01_restassured;
 
 public class Lab_04_Builder_Pattern {
         public Lab_04_Builder_Pattern step1(){

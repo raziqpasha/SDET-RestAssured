@@ -21,6 +21,41 @@
     <version>5.5.1</version>
     <scope>test</scope>
   </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+  <dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.29.1</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-guava</artifactId>
+    <version>3.27.2</version>
+    <scope>test</scope>
+  </dependency>
+
 </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>9</source>
+          <target>9</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/USER/IdeaProjects/ATB11XAPIAutomationFramework"><classes><class name="com.thetestingacedemy.ex_04_TestNGExamples.ex_02_restassured_run_multipletestcase.Lab_06_TestNG_multipletestcasese"><methods><include name="positivetestcase_step1"/><include name="neagtivetestcase_step2"/><include name="neagtivetestcase_step3"/></methods></class>
+
+    <class name="com.thetestingacedemy.ex_04_TestNGExamples.ex_02_restassured_run_multipletestcase.Lab_05_multipletestcasese"/>
+</classes></test></suite>

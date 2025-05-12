@@ -1,4 +1,4 @@
-package com.thetestingacedemy.ex_01_restassured_concept;
+package com.thetestingacedemy.ex_04_TestNGExamples.ex_01_restassured;
 
 import io.restassured.RestAssured;
 import java.util.*;

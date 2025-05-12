@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Multiple Test Cases Execution">
+
+<!--        <groups>-->
+<!--            <run>-->
+
+<!--                <include name="reg"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+        <parameter name="browser" value="chrome"></parameter>
+
+        <classes>
+            <!-- Class 1 -->
+            <class name="com.thetestingacedemy.ex_04_TestNGExamples.Lab21_Parameters"/>
+
+            <!-- You can add more classes like this -->
+            <!--
+            <class name="your.package.YourSecondTestClass"/>
+            <class name="your.package.YourThirdTestClass"/>
+            -->
+        </classes>
+    </test>
+</suite>
